@@ -1,8 +1,8 @@
 import { withSentryConfig } from "@sentry/nextjs";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
-  ignoreBuildErrors: true,
+  // output: "export",
+  // ignoreBuildErrors: true,
 };
 
 export default withSentryConfig(
